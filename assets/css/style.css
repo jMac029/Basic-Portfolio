@@ -68,7 +68,7 @@ nav li:not(:first-child):before {
 	height: 90px;
 	margin-bottom: 0;
 	padding-top: 20px;
-	border-top: 5px;
+	border-top: 8px;
 	border-top-style: solid;
 	border-top-color: #4aaaa5; 
 }
