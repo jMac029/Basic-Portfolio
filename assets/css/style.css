@@ -65,13 +65,17 @@ nav li:not(:first-child):before {
 	clear: both;
 	text-align: center;
 	background-color: #666666;
-	color: #ffffff;
 	height: 90px;
 	margin-bottom: 0;
 	padding-top: 20px;
 	border-top: 5px;
 	border-top-style: solid;
 	border-top-color: #4aaaa5; 
+}
+
+.footer p {
+	color: #ccc;
+	font-size: 12px;
 }
 
 .container {
