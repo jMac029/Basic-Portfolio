@@ -127,10 +127,10 @@ h1, h2, h3, h4, h5 {
 }
 
 .portfolio-item {
+	float: left;
 	height: 200px;
 	width: 265px;
-	padding: 30px 20px 20px 0px;
-	margin: 0;
+	padding: 30px 25px 20px 0px;
 }
 
 .portfolio-text {
