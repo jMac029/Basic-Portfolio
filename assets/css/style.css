@@ -98,6 +98,7 @@ h1, h2, h3, h4, h5 {
 
 #main-content {
 	float: left;
+	position: relative;
 	background-color: #ffffff;
 	width: 580px;
 	margin-top: 40px;
@@ -119,6 +120,34 @@ h1, h2, h3, h4, h5 {
 	width: 200px;
 	float: left;
 	padding: 10px 10px 10px 0;
+}
+
+.portfolio-gallery {
+	position: relative;
+}
+
+.portfolio-item {
+	height: 200px;
+	width: 265px;
+	padding: 30px 20px 20px 0px;
+	margin: 0;
+}
+
+.portfolio-text {
+	position: absolute;
+	text-align: center;
+	margin-top: 130px;
+	width: 265px;
+	height: 60px;
+	background-color: #4aaaa5;
+}
+
+p span {
+	color: #fff;
+	font-weight: normal;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 20px;
+	padding-bottom: 18px;
 }
 
 aside {
