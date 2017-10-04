@@ -31,11 +31,11 @@ input[type=text], select, textarea {
     color: #ccc;
 }
 /* Mozilla Firefox 4 to 18 */
-:-moz-placeholder { 
+input:-moz-placeholder { 
    color:    #ccc;
 }
 /* Mozilla Firefox 19+ */
-::-moz-placeholder { 
+input::-moz-placeholder { 
    color:    #ccc;
 }
 /* Internet Explorer 10-11 */
