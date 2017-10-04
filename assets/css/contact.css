@@ -19,8 +19,7 @@ input[type=text], select, textarea {
 	height: 25px;
 	border: 1px solid #ccc;
 	box-sizing: border-box;
-	margin-top: 6px; 
-    margin-bottom: 16px;
+	margin: 6px 0 16px 0; 
     font-size: 14px;
 }
 
@@ -38,6 +37,9 @@ input:-moz-placeholder {
 input::-moz-placeholder { 
    color:    #ccc;
 }
+
+/* I tried the above Mozilla Firefox properties for the placeholder text and none worked... */
+
 /* Internet Explorer 10-11 */
 :-ms-input-placeholder { 
    color:    #ccc;
@@ -62,5 +64,5 @@ input::-moz-placeholder {
 }
 
 input[type=submit]:hover {
-    background-color: #45a049;
+    opacity: .5;
 }
