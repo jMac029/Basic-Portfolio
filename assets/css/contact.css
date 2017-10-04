@@ -1,0 +1,66 @@
+/* 
+	CSS Styling for Contact Page
+*/
+
+.contact-form {
+	margin-top: 30px;
+}
+
+label {
+	font-size: 18px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777;
+}
+
+input[type=text], select, textarea {
+	width: 100%;
+	height: 40px;
+	padding: 12px;
+	height: 25px;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	margin-top: 6px; 
+    margin-bottom: 16px;
+    font-size: 14px;
+}
+
+/* Placehold text colors found css from stackoverflow: https://stackoverflow.com/questions/2610497/change-an-html5-inputs-placeholder-color-with-css */
+
+/* WebKit, Blink, Edge */
+::-webkit-input-placeholder { 
+    color: #ccc;
+}
+/* Mozilla Firefox 4 to 18 */
+:-moz-placeholder { 
+   color:    #ccc;
+}
+/* Mozilla Firefox 19+ */
+::-moz-placeholder { 
+   color:    #ccc;
+}
+/* Internet Explorer 10-11 */
+:-ms-input-placeholder { 
+   color:    #ccc;
+}
+/* Microsoft Edge */
+::-ms-input-placeholder { 
+   color:    #ccc;
+}
+
+#message {
+	width: 100%;
+	height: 250px;
+}
+
+#submit {
+	width: 110px;
+	height: 40px;
+	background-color: #4aaaa5;
+	font-size: 16px;
+	color: #fff;
+	border: none;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
